@@ -9,9 +9,12 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     UsersModule,
     CommentsModule,
-    MongooseModule.forRoot(process.env.MONGO_URL),
+    MongooseModule.forRoot(
+      'mongodb+srv://Heet:ihGZXXuw4WsLAu8x@backthread.7vtr5iw.mongodb.net/?retryWrites=true&w=majority&appName=Backthread',
+    ),
   ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule { }
+// eslint-disable-next-line prettier/prettier
+export class AppModule{}
