@@ -10,7 +10,7 @@ POST http://localhost:3000/comments HTTP/1.1
 content-type: application/json
 
 {
-  "text": "Hello Wellnest Team! Best Developer!!",
+  "text": "Hello Guys! - My company name is Wellnest!",
   "userId": "64ade3b83862ed27011a09",
   "parentId": "64ade80d84c7764ae38bc176",
 } 
